@@ -1,7 +1,7 @@
 #  Diffusion Models Homework
 
 
-In this assignment you will become familiar with the basic concepts of diffusive models. Although the models corresponding to the state of the art require a very high computational power, there are simple implementations that we will use to analyze the image generation.
+In this assignment you will become familiar with the basic concepts of diffusion models. Although the models corresponding to the state of the art require a very high computational power, there are simple implementations that we will use to analyze the image generation.
 
 
 
