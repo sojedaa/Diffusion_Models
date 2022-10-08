@@ -10,7 +10,7 @@ In this assignment you will become familiar with the basic concepts of diffusive
 
 As seen in the class, the same amount of noise is not added at each step of the foward process. This amount of noise is regulated by a schedule wich scales the mean and the variance. This ensures that the variance doesn't explode as we add more noise.
 
-![diffusion-model image](diffusion.png)
+![diffusion-model image](diffusion1.png)
 
 Your task is to test new functions in order to keep the distribution as structured as possible for as many steps as possible. For a function you should analyze and explain the reasons for the results obtained.
 
