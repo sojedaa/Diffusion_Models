@@ -12,7 +12,7 @@ As seen in the class, the same amount of noise is not added at each step of the 
 
 ![diffusion-model image](diffusion1.png)
 
-Your task is to test new functions in order to keep the distribution as structured as possible for as many steps as possible. For a function you should analyze and explain the reasons for the results obtained.
+Your task is to test new schedule functions in order to keep the distribution as structured as possible for as many steps as possible. For a function you should analyze and explain the reasons for the results obtained.
 
 In the utils.py file you can find the function where you can add different shedules.
 This part can be done in your own computers.
