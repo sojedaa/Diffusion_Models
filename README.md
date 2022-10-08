@@ -1,14 +1,20 @@
-# Denoising Diffusion Model
+#  Diffusion Models Homework
 
 
-This is a simple guide to diffusion models.  
-
+In this assignment you will become familiar with the basic concepts of diffusive models. Although the models corresponding to the state of the art require a very high computational power, there are simple implementations that we will use to analyze the image generation.
 
 
 ![diffusion-model image](diffusion.png)
 
+## PART 1: Forward Diffusion
+
+As seen in the class, the same amount of noise is not added at each step of the foward process. This amount of noise is regulated by a schedule wich scales the mean and the variance. This ensures that the variance doesn't explode as we add more noise.
 
 
+Your task is to test new functions in order to keep the distribution as structured as possible for as many steps as possible. For a function you should analyze and explain the reasons for the results obtained.
+
+In the utils.py file you can find the function where you can add different shedules.
+This part can be done in your own computers.
 
 ## Requirements
 
@@ -16,12 +22,6 @@ This is a simple guide to diffusion models.
 * pytorch >= 1.6
 * CUDA Toolkit
 * GPU
-
-
-## The tutorial 📃
-The full tutorial is available on medium.
-
-https://azad-wolf.medium.com/diffusion-models-made-easy-8414298ce4da
 
 
 
