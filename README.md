@@ -51,6 +51,9 @@ https://colab.research.google.com/drive/1x4p2PokZ3XznBn35Q5BBD6K6Zs-tot5t?usp=sh
 Report the function of each of the parameters and upload a subplot with a text of your choice varying the parameters. 
 To run the colab it is necessary to make a copy and run it for the first time with the baseline parameters.
 
+## Report
+All the results and analysis should be on a PDF file. Submit the eddited codes to the repository and the report before October 24th at 23:59.
+
 ## Requirements
 
 * Python >= 3.7
