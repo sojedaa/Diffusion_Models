@@ -36,7 +36,7 @@ b. In the ddpm_conditional.py file pass the labels of the dataloader to the new 
 
 c. Train the ddpm_conditional.py model for the StanfordCars dataset and save the results.
 
-d. Compare the best results of the conditional and the unconditional models and analize the results. For the analysis explain how the Classifier Free Guidance works. If the results were not the expeceted explain why could have this happened.
+d. Compare the best results of the conditional and the unconditional models and analize the results. For the analysis explain how the Classifier Free Guidance works (Check references [6]-[7]). If the results were not the expeceted explain why could have this happened.
 
 e. Explain in your words what process should be the process to implement Classifier Guidance instead of Classifier Free Guidance.
 
@@ -63,13 +63,19 @@ All the results and analysis should be on a PDF file. Submit the eddited codes t
 
 ## References 
 
-Sohl-Dickstein, J., Weiss, E. A., Maheswaranathan, N., & Ganguli, S. (2015). Deep unsupervised learning using nonequilibrium thermodynamics. arXiv preprint arXiv:1503.03585. 
+[1] Sohl-Dickstein, J., Weiss, E. A., Maheswaranathan, N., & Ganguli, S. (2015). Deep unsupervised learning using nonequilibrium thermodynamics. arXiv preprint arXiv:1503.03585. 
 
-Max Welling & Yee Whye Teh. “Bayesian learning via stochastic gradient langevin dynamics.” ICML 2011. 
+[2] Max Welling & Yee Whye Teh. “Bayesian learning via stochastic gradient langevin dynamics.” ICML 2011. 
 
-Ho, J., Jain, A., & Abbeel, P. (2020). Denoising diffusion probabilistic models. arXiv preprint arXiv:2006.11239.  
+[3] Ho, J., Jain, A., & Abbeel, P. (2020). Denoising diffusion probabilistic models. arXiv preprint arXiv:2006.11239.
 
-Prafulla Dhariwal, Alex Nichol, Diffusion Models Beat GANs on Image Synthesis, arXiv: 2105.05233 
+[4] Nichol, A., & Dhariwal, P. (2021). Improved Denoising Diffusion Probabilistic Models. https://doi.org/10.48550/arxiv.2102.09672
+
+[5] Prafulla Dhariwal, Alex Nichol, Diffusion Models Beat GANs on Image Synthesis, arXiv: 2105.05233 
+
+[6] Ho, J., & Salimans, T. (2022). Classifier-Free Diffusion Guidance. https://doi.org/10.48550/arxiv.2207.12598
+
+[7] Nichol, A., Dhariwal, P., Ramesh, A., Shyam, P., Mishkin, P., McGrew, B., Sutskever, I., & Chen, M. (2021). GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models. https://doi.org/10.48550/arxiv.2112.10741
 
 
 
