@@ -36,9 +36,13 @@ b. For the both training and smampling algorithms find the comments #Start and #
 2. Check the comments #2.item on the code. (0.4 pints each item)
 
 a. Include a label embedding for the classes by adding some modifications to the module architecture (UNet) in the file modules.py. (Hint: Do not implement the architecture from scratch, create a new class for the conditional UNet).
+
 b. In the ddpm_conditional.py file pass the labels of the dataloader to the new model. Choose a rate to train unconditionally and modify the sampling algorithm in the Diffusion class to implement Classifier Free Guidance.
+
 c. Train the ddpm_conditional.py model for the StanfordCars dataset and save the results.
+
 d. Compare the best results of the conditional and the unconditional models and analize the results. For the analysis explain how the Classifier Free Guidance works. If the results were not the expeceted explain why could have this happened.
+
 e. Explain in your words what process should be the process to implement Classifier Guidance instead of Classifier Free Guidance.
 
 ## References 
