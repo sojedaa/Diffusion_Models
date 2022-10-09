@@ -46,6 +46,15 @@ e. Explain in your words what process should be the process to implement Classif
 * pytorch >= 1.6
 * CUDA Toolkit
 * GPU
+## Bonus (1 points)
+As a bonus we want you to experiment on a text to image task which uses Classifier Free Guidance, so vary the guidance_scale, the prompt, the batch size and the number of batches and analyze the results. 
+
+https://colab.research.google.com/drive/1x4p2PokZ3XznBn35Q5BBD6K6Zs-tot5t?usp=sharing
+
+![diffusion-model image](colab_image.png)
+
+Report the function of each of the parameters and upload a subplot with a text of your choice varying the parameters. 
+To run the colab it is necessary to make a copy and run it for the first time with the baseline parameters.
 
 ## References 
 
