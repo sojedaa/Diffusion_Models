@@ -16,7 +16,7 @@ Your task is to test new schedule functions in order to keep the distribution as
 
 Run the Jupiter Notebook diffussion_model_demo.py on your computer. Experiment with varying the schedule with two functions of your choice as well as plotting the beta functions and discussing the differences between the given function and the two you created. In your report make evidence of the plots of both the distribution, an image of your choice of the database and the beta functions.
 
-In the utils.py file you can find the function where you can add different shedules.
+In the utils.py file you can find the function where you can add different schedules.
 
 
 ## PART 2: Reverse Process (1 point)
