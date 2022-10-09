@@ -14,15 +14,10 @@ As seen in the class, the same amount of noise is not added at each step of the 
 
 Your task is to test new schedule functions in order to keep the distribution as structured as possible for as many steps as possible. For a function you should analyze and explain the reasons for the results obtained.
 
+Run the Jupiter Notebook diffussion_model_demo.py on your computer. Experiment with varying the schedule with two functions of your choice as well as plotting the beta functions and discussing the differences between the given function and the two you created. In your report make evidence of the plots of both the distribution, an image of your choice of the database and the beta functions.
+
 In the utils.py file you can find the function where you can add different shedules.
-This part can be done in your own computers.
 
-## Requirements
-
-* Python >= 3.7
-* pytorch >= 1.6
-* CUDA Toolkit
-* GPU
 
 ## PART 2: Reverse Process (1 point)
 
@@ -44,6 +39,13 @@ c. Train the ddpm_conditional.py model for the StanfordCars dataset and save the
 d. Compare the best results of the conditional and the unconditional models and analize the results. For the analysis explain how the Classifier Free Guidance works. If the results were not the expeceted explain why could have this happened.
 
 e. Explain in your words what process should be the process to implement Classifier Guidance instead of Classifier Free Guidance.
+
+## Requirements
+
+* Python >= 3.7
+* pytorch >= 1.6
+* CUDA Toolkit
+* GPU
 
 ## References 
 
